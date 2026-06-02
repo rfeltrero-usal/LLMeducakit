@@ -382,3 +382,71 @@ html.opendyslexic-mode code {
         justify-content: center;
     }
 }
+
+/* ================================================================
+   Animated Logo - Alternates between logo states
+   ================================================================ */
+
+/* Main logo image animation */
+.pst-logo {
+    animation: logoFade 3s ease-in-out infinite;
+    will-change: opacity;
+}
+
+@keyframes logoFade {
+    0% {
+        opacity: 1;
+        filter: brightness(1) saturate(1);
+    }
+    49% {
+        opacity: 1;
+        filter: brightness(1) saturate(1);
+    }
+    50% {
+        opacity: 0.5;
+        filter: brightness(1.05) saturate(1.1);
+    }
+    99% {
+        opacity: 0.5;
+        filter: brightness(1.05) saturate(1.1);
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1) saturate(1);
+    }
+}
+
+/* Alternative: Smooth rotation + color shift */
+.pst-logo {
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .pst-logo {
+        animation: logoRotateGlow 4s ease-in-out infinite;
+    }
+}
+
+@keyframes logoRotateGlow {
+    0% {
+        transform: scale(1) rotate(0deg);
+        filter: drop-shadow(0 0 0px rgba(0, 75, 124, 0.3));
+    }
+    25% {
+        transform: scale(1.02) rotate(2deg);
+        filter: drop-shadow(0 0 4px rgba(0, 75, 124, 0.4));
+    }
+    50% {
+        transform: scale(1) rotate(0deg);
+        filter: drop-shadow(0 0 8px rgba(0, 75, 124, 0.5));
+    }
+    75% {
+        transform: scale(1.02) rotate(-2deg);
+        filter: drop-shadow(0 0 4px rgba(0, 75, 124, 0.4));
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        filter: drop-shadow(0 0 0px rgba(0, 75, 124, 0.3));
+    }
+}

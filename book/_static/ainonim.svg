@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0077c8"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="url(#g2)" />
+  <g transform="translate(150,150)" font-family="sans-serif" text-anchor="middle" fill="#fff">
+    <circle r="64" fill="rgba(255,255,255,0.06)"/>
+    <text y="-8" font-size="26" font-weight="700">AInonim</text>
+    <text y="20" font-size="12">Anonimización</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff8a00"/>
+      <stop offset="100%" stop-color="#e52e71"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="url(#g1)" />
+  <g transform="translate(150,150)" font-family="sans-serif" text-anchor="middle" fill="#fff">
+    <circle r="64" fill="rgba(255,255,255,0.06)"/>
+    <text y="-8" font-size="28" font-weight="700">coLAB</text>
+    <text y="20" font-size="14">crea</text>
+  </g>
+</svg>

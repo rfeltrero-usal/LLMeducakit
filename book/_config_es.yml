@@ -3,9 +3,9 @@ title: |
   electrónicos mediante
   código y asistentes de
   Inteligencia Artificial
-author: Álvaro Lozano Murciego y André Filipe Sales Mendes
+author: Roberto Feltrero, director científico de LLMeducakit
 copyright: "2026"
-logo: "_static/logo.png"
+logo: "_static/logo.svg"
 language: es
 exclude_patterns: ["_build", "Thumbs.db", ".DS_Store", "**.ipynb_checkpoints", "_build_*", "en/", "temp_build_*", "latex_templates*", "_TRASH*"]
 execute:
